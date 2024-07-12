@@ -7,8 +7,9 @@ A combination of programs that allows GPT or Llama to act as your Assistant for 
 # Instructions 
 After installing macrodroid you should go to templates page and search for Android-Intelligence
 ![IMG_20240712_132633](https://github.com/user-attachments/assets/591c59fb-58d8-4042-8da8-989f71fd7234)
-After finding macro, click on it and add it to your library in the right bottom corner. Then go to home page and find quick tile settings.
+After finding macro, click on it and add it to your library in the right bottom corner. Then go to home page and find quick tile settings. 
 ![IMG_20240712_134224](https://github.com/user-attachments/assets/e9b9979e-7543-4053-870f-4d0a83460a66)
+Enable ANY button on the list and choose button setting
 ![IMG_20240712_134604](https://github.com/user-attachments/assets/888254fd-120e-4820-92e5-9889c660f30f)
 ![IMG_20240712_135045](https://github.com/user-attachments/assets/a57210e7-9593-4c35-90e5-25314d8f86ca)
 ![IMG_20240712_135409](https://github.com/user-attachments/assets/46a2356b-ed6d-4b81-85d3-649d696b8fc3)
