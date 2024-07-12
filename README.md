@@ -6,4 +6,4 @@ A combination of programs that allows GPT or Llama to act as your Assistant for 
 ### [Termux](https://github.com/termux)
 # Instructions 
 After installing macrodroid you should go to templates page and search for Android-Intelegence![IMG_20240712_132633](https://github.com/user-attachments/assets/591c59fb-58d8-4042-8da8-989f71fd7234)
-
+After finding macro, click on it and add it to your library in right bottom corner.
