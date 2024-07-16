@@ -22,4 +22,6 @@ Go to macros menu - click on Android-Intelligence macros - tap on first trigger 
 ![IMG_20240715_074549](https://github.com/user-attachments/assets/c2403605-1bba-4a88-85f0-d6d361e13828)
 Then open configuration for the second trigger - Generate new device id - Copy link
 ![IMG_20240716_092157](https://github.com/user-attachments/assets/ee43a3ba-614c-4965-92d4-e3cbcfed6def)
-
+# Termux
+After installing termux give it all necessary permissions and let's continue:
+1.
