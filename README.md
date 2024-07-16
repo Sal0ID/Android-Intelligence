@@ -24,4 +24,9 @@ Then open configuration for the second trigger - Generate new device id - Copy l
 ![IMG_20240716_092157](https://github.com/user-attachments/assets/ee43a3ba-614c-4965-92d4-e3cbcfed6def)
 # Termux
 After installing termux give it all necessary permissions and let's continue:
-1.
+1. ```pkg install python```
+2. ```apt install git```
+```_file="$(find $PREFIX/lib/python3.11 -name "_sysconfigdata*.py")"
+rm -rf $PREFIX/lib/python3.11/__pycache__
+cp $_file "$_file".backup
+sed -i 's|-fno-openmp-implicit-rpath||g' "$_file"```
