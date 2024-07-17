@@ -29,4 +29,6 @@ After installing termux give it all necessary permissions and let's continue:
 ```_file="$(find $PREFIX/lib/python3.11 -name "_sysconfigdata*.py")"
 rm -rf $PREFIX/lib/python3.11/__pycache__
 cp $_file "$_file".backup
-sed -i 's|-fno-openmp-implicit-rpath||g' "$_file"```
+sed -i 's|-fno-openmp-implicit-rpath||g' "$_file" ```
+''''''
+Change current directory to ```cd /storage/emulated/0/```
