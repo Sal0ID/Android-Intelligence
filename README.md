@@ -26,9 +26,12 @@ Then open configuration for the second trigger - Generate new device id - Copy l
 After installing termux give it all necessary permissions and let's continue:
 1. ```pkg install python```
 2. ```apt install git```
-```_file="$(find $PREFIX/lib/python3.11 -name "_sysconfigdata*.py")"
+3. IMPORTANT COMMAND, NOT OPTIONAL fixes bug when installing openai python library [source](https://github.com/termux/termux-packages/issues/20039)
+```
+_file="$(find $PREFIX/lib/python3.11 -name "_sysconfigdata*.py")"
 rm -rf $PREFIX/lib/python3.11/__pycache__
 cp $_file "$_file".backup
-sed -i 's|-fno-openmp-implicit-rpath||g' "$_file" ```
-''''''
-Change current directory to ```cd /storage/emulated/0/```
+sed -i 's|-fno-openmp-implicit-rpath||g' "$_file"
+```
+- Change current directory to
+- ```cd /storage/emulated/0/```
