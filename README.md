@@ -31,8 +31,12 @@ git clone https://github.com/Sal0ID/Android-Intelligence
 - ```pip install openai```
 - Then ```cd Android-Intelligence```
 - ```nano main.py```
-- Put in your api key here
-- Launch the program and continue to macrodroid
+- Put in your api key here ```openai.api_key = ""```
+- After completing macrodroid instructions insert link to second trigger here
+- ```trigger = "" # Link to macrodroid trigger```
+- ![IMG_20240718_191906](https://github.com/user-attachments/assets/d41917f9-823b-46a5-b426-98700f4fa266)
+
+- Congratulations, to launch program:
 - ```python main.py```
 # Macrodroid
 After installing macrodroid you should go to templates page and search for Android-Intelligence
