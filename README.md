@@ -35,3 +35,7 @@ sed -i 's|-fno-openmp-implicit-rpath||g' "$_file"
 ```
 - Change current directory to
 - ```cd /storage/emulated/0/```
+Clone github repository
+```
+git clone https://github.com/Sal0ID/Android-Intelligence
+```
