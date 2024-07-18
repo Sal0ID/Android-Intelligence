@@ -35,7 +35,12 @@ sed -i 's|-fno-openmp-implicit-rpath||g' "$_file"
 ```
 - Change current directory to
 - ```cd /storage/emulated/0/```
-Clone github repository
+- Clone github repository
 ```
 git clone https://github.com/Sal0ID/Android-Intelligence
 ```
+Install requests library
+- ```pip install requests```
+- Install openai library.
+- THIS MAY TAKE UP TO 30 MINUTES
+- 
