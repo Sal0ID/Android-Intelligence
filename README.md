@@ -39,8 +39,11 @@ sed -i 's|-fno-openmp-implicit-rpath||g' "$_file"
 ```
 git clone https://github.com/Sal0ID/Android-Intelligence
 ```
-Install requests library
+- Install requests library
 - ```pip install requests```
 - Install openai library.
 - THIS MAY TAKE UP TO 30 MINUTES
-- 
+- ```pip install openai```
+- Then ```cd Android-Intelligence```
+- Launch the program and you are ready to go! 🚀
+- ```python main.py```
