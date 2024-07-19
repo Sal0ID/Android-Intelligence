@@ -39,7 +39,7 @@ git clone https://github.com/Sal0ID/Android-Intelligence
 - Congratulations, to launch program:
 - ```python main.py```
 # Macrodroid
-After installing macrodroid you should go to templates page and search for Android-Intelligence
+After installing macrodroid you should go to templates page and search for Android-Intelligence without the whitespace at the end, or else it would not find it.
 ![IMG_20240712_132633](https://github.com/user-attachments/assets/591c59fb-58d8-4042-8da8-989f71fd7234)
 After finding macro, click on it and add it to your library in the right bottom corner. Then go to home page and find quick tile settings. 
 ![IMG_20240712_134224](https://github.com/user-attachments/assets/e9b9979e-7543-4053-870f-4d0a83460a66)
