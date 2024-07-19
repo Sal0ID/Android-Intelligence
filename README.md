@@ -26,12 +26,12 @@ git clone https://github.com/Sal0ID/Android-Intelligence
 ```
 - Install requests library
 - ```pip install requests```
-- Install openai library.
+- Install OpenAI python library.
 - **THIS MAY TAKE UP TO 30 MINUTES**
 - ```pip install openai```
 - Then ```cd Android-Intelligence```
 - ```nano main.py```
-- Put in your api key here ```openai.api_key = ""```
+- Put in your OpenAI api key here ```openai.api_key = ""```
 - After completing macrodroid instructions insert link to second trigger here
 - ```trigger = "" # Link to macrodroid trigger```
 - ![IMG_20240718_191906](https://github.com/user-attachments/assets/d41917f9-823b-46a5-b426-98700f4fa266)
