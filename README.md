@@ -2,7 +2,7 @@
 A combination of programs that allows GPT to be your Assistant for your everyday life. GPT has context and will answer any of your questions.
 # Example of usage
 
-## Requirements
+# Requirements
 ### [Macrodroid](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dcom.arlosoft.macrodroid%26hl%3Den_US%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Dmacrodroid%2Bplay%26pcampaignid%3DAPPU_1_vKOPZqqqBbSO7NYPsKComA4&ved=2ahUKEwiq-JKh1J6HAxU0B9sEHTAQCuMQ5YQBegQIDhAC&usg=AOvVaw0gkSlTgAaCdI1qfWfuKLI9) (free or paid version)
 ### [Termux](https://github.com/termux)
 ### [OpenAI api key](https://platform.openai.com/docs/quickstart#:~:text=First%2C%20create%20an%20OpenAI%20account,not%20share%20it%20with%20anyone.)
