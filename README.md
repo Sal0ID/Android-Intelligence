@@ -1,5 +1,5 @@
 # Android-Intelligence
-A combination of programs that allows GPT to be your Assistant for your everyday life. GPT has context and will answer any of your
+A combination of programs that allows GPT to be your Assistant for your everyday life. GPT has context and will answer any of your questions.
 # Example of usage
 
 ## Requirements
