@@ -22,27 +22,18 @@ path = "//storage//emulated//0//Android-Intelligence//" # Path to cloned git rep
 pathi = path + "input.txt" # Path to input file
 patho = path + "output.txt" # Path to output file
 context = path + "context.txt" # Path to context file
-trigger = "" # Link to macrodroid trigger goes here https://
-lastActivePath = path + "lastActive.txt" # Path to file with information when macros last used
-
-def delete_first_ten_lines(filename):
-    # Read the contents of the file
-    with open(filename, 'r') as file:
-        lines = file.readlines()
-
-    # Write all lines except the first ten back to the file
-    with open(filename, 'w') as file:
-        file.writelines(lines[20:])
+trigger = "" # Link to macrodroid trigger
+lastActivePath = path + "lastActive.txt"
 
 
 print("Working") # Just to see if program is working
-
+#print("Current directory" + os. getcwd())
 while True:
 	# Check if input file exists
 	if os.path.isfile((pathi)):
 		# if exists do this:
 		today = date.today() # get time now
-		print(today.strftime('%d/%m')) # Print day/month
+		print(today.strftime('%d/%m'))
 		f = open(lastActivePath, "r") # Read when macros was activated last time
 		lastActive = f.read()
 		f.close()
@@ -55,11 +46,11 @@ while True:
 
 		# If it is "" then write tosays dqy and month
 		if lastActive == "":
-			f = open(lastActivePath, "w") # Write todays date if there is none in the file
+			f = open(lastActivePath, "w") # Write >
 			f.write(today.strftime('%d/%m'))
 			f.close()
 			print("Wrote current date")
-		f = open(lastActivePath, "w") # If everything is okay write today
+		f = open(lastActivePath, "w")
 		f.write(today.strftime('%d/%m'))
 		f.close()
 		f = open(pathi, "r") # Read input
@@ -70,7 +61,7 @@ while True:
 		contextText = c.read()
 		c.close()
 		completion = openai.chat.completions.create(
-    model="gpt-3.5-turbo-0125",
+    model="gpt-4o-mini",
     messages=[
         {"role": "assistant", "content": str(contextText)},
         {"role": "user", "content": str(text)},
@@ -80,10 +71,6 @@ while True:
 		print(response)
 		tokens = completion.usage # Get number of tokens used
 		print(str(tokens))
-		#Auto deletion of context when it is too much
-		if tokens.total_tokens >= 3500:
-			delete_first_ten_lines(context)
-			print("Emergency deletion of context to prevent error")
 		c = open(context, "a") # Open context file for appending text
 		c.write("Human: " + text + "\n") # Appending ehat human said to GPT
 		c.write("GPT: " + response + "\n") # Appending GPT's reply
