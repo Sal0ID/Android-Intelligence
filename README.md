@@ -57,4 +57,5 @@ Go to macros menu -> click on Android-Intelligence macros -> tap on first trigge
 Then open configuration for the second trigger -> Generate new device id
 ![IMG_20240716_092157](https://github.com/user-attachments/assets/ee43a3ba-614c-4965-92d4-e3cbcfed6def)
 
-If python program in termux is still working then you are ready to go 😄
+Put your trigger link into ```trigger``` variable in python program.
+Launch the program and you are ready to go! 😃
